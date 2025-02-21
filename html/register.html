@@ -1,1 +1,32 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registrierung</title>
+    <script defer src="js/register.js"></script>
+</head>
+<body>
+    <h1>Erstelle deine Visitenkarte</h1>
+    <input type="text" id="name" placeholder="Name" required>
+    <input type="text" id="business" placeholder="Firma">
+    <input type="text" id="phone" placeholder="Telefonnummer" required>
+    <input type="email" id="email" placeholder="E-Mail" required>
+    <input type="text" id="address" placeholder="Adresse">
+    <input type="text" id="website" placeholder="Website">
+    <input type="text" id="instagram" placeholder="Instagram">
+    <input type="text" id="linkedin" placeholder="LinkedIn">
+    <input type="password" id="password-download" placeholder="Passwort für vCard-Download" required>
+    <input type="password" id="password-admin" placeholder="Admin-Passwort" required>
+    
+    <label>
+        <input type="checkbox" id="agree-terms">
+        Ich stimme der <a href="html/datenschutz.html">Datenschutzerklärung</a> zu.
+    </label>
+    
+    <button onclick="registerUser()">Registrieren</button>
+
+    <p><a href="index.html">Zurück zur Startseite</a></p>
+</body>
+</html>
 
