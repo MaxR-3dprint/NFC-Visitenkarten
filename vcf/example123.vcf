@@ -1,0 +1,9 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Mustermann;Max;;;
+FN:Max Mustermann
+ORG:Musterfirma
+TEL;TYPE=CELL:+49 123 456789
+EMAIL:max@example.com
+URL:https://example.com
+END:VCARD
